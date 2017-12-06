@@ -27,7 +27,9 @@ public class AdventOfCode2017 {
                 break;
             case 4: Day4_HighEntropyPassphrases.HighEnergyPassphrase(input);
                 break;
-            case 5: Day5_AMazeOfTwistyTrampolinesAllAlike.MazeCount(input);
+            case 5: Day5_AMazeOfTwistyTrampolinesAllAlike.MazeCount(input, "incrementAlways");
+                break;
+            case 105: Day5_AMazeOfTwistyTrampolinesAllAlike.MazeCount(input, "decrementOrIncrement");
                 break;
             default: System.out.println("Error in Day Input");
                 break;
